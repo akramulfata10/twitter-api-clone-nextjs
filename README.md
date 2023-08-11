@@ -7,7 +7,7 @@ membuat API-twitter sederhana dengan menggunakan teknologi nextjs, mongodb, pris
 - [POST /login](#post-login)
 - [POST /signub](#post-signub)
 - [POST /tweets](#post-tweets)
-- [get /tweet/[id]](#get-tweetid)
+- [GET /tweet/[id]](#get-tweetid)
 - [POST /tweet/[id]](#post-tweetid)
 - [POST /signub/[id]/articles](#post-magazinesidarticles)
 
@@ -31,7 +31,7 @@ Example: http://localhost:3000/api/signub.json
 Example: http://localhost:3000/api/tweets.json
 
 
-### get /tweet/[id]
+### GET /tweet/[id]
 
 Example: http://localhost:3000/api/tweet.json
 
