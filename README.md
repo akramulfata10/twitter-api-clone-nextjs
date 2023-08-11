@@ -61,15 +61,16 @@ Example: http://localhost:3000/api/login.json
 
 ```javascript
 
-Response Body:
+Response Body: 
 
 ```javascript
 
-   {
-     "message": "login succes"
-   }
+    {
+        login success
+    }
 
 ```javascript
+
 
 
 ### POST /signub
@@ -92,7 +93,8 @@ Example: http://localhost:3000/api/signub.json
     "password": "aidil"
    }
 
-```
+```javascript
+
 Response Body :
 
 ```javascript
@@ -104,7 +106,7 @@ Response Body :
        "password": "$2b$10$yxETAvMa50c1xgeSaY2Zke.0Wm2SZ.v6RAZBcrth.WtIddtf//MQ2"
      }
    }
-```
+```javascript
 
 ### POST /tweets
 
