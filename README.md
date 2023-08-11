@@ -9,7 +9,6 @@ membuat API-twitter sederhana dengan menggunakan teknologi nextjs, mongodb, pris
 - [POST /tweets](#post-tweets)
 - [GET /tweet/[id]](#get-tweetid)
 - [POST /tweet/[id]](#post-tweetid)
-- [POST /signub/[id]/articles](#post-magazinesidarticles)
 
 ### GET /users
 
