@@ -47,19 +47,20 @@ Example: http://localhost:3000/api/users.json
 Example: http://localhost:3000/api/login.json
 
 ```javascript
-   POST /api/login HTTP/1.1
-   User-Agent: Thunder Client (https://www.thunderclient.com)
-   Accept: application/json
-   Content-Type: application/json
-   Host: localhost:3000
-   Content-Length: 69
-   
-   {
-     "email": "akramulfata10@gmail.com",
-     "password" : "1234567890"
-   }
 
-```javascript
+       POST /api/login HTTP/1.1
+       User-Agent: Thunder Client (https://www.thunderclient.com)
+       Accept: application/json
+       Content-Type: application/json
+       Host: localhost:3000
+       Content-Length: 69
+   
+       {
+         "email": "akramulfata10@gmail.com",
+         "password" : "1234567890"
+       }
+
+```
 
 Response Body: 
 
@@ -69,14 +70,13 @@ Response Body:
         login success
     }
 
-```javascript
+```
 
 
 
 ### POST /signub
 
 Example: http://localhost:3000/api/signub.json
-
 
 ```javascript
    POST /api/signup HTTP/1.1
@@ -93,7 +93,7 @@ Example: http://localhost:3000/api/signub.json
     "password": "aidil"
    }
 
-```javascript
+```
 
 Response Body :
 
@@ -106,7 +106,7 @@ Response Body :
        "password": "$2b$10$yxETAvMa50c1xgeSaY2Zke.0Wm2SZ.v6RAZBcrth.WtIddtf//MQ2"
      }
    }
-```javascript
+```
 
 ### POST /tweets
 
