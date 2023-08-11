@@ -3,6 +3,6 @@ membuat API-twitter sederhana dengan menggunakan teknologi nextjs, mongodb, pris
 
 ## Request & Response Examples
 
-- [GET /magazines](#get-magazines)
-- [GET /magazines/[id]](#get-magazinesid)
-- [POST /magazines/[id]/articles](#post-magazinesidarticles)
+- [GET /users](#get-magazines)
+- [POST /login/[id]](#get-magazinesid)
+- [POST /signub/[id]/articles](#post-magazinesidarticles)
