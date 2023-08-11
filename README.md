@@ -21,7 +21,26 @@ Example: http://localhost:3000/api/users.json
       "name": "akramulfata",
       "email": "akramulfata10@gmail.com",
       "password": "$2b$10$f8KUlNQSzQr8q/VOXTcLIeW9uqD789ePpka.XQcsTaSLdSfsf8iLG",
-     {
+            "tweets": [
+                {
+                  "id": "64d5fa0094550e52ca060b89",
+                  "tweet": "fata test tweet di twitter",
+                  "createdDate": "2023-08-11T09:06:08.275Z",
+                  "updatedDate": "2023-08-11T09:06:08.275Z",
+                  "userId": "64d4de34ea48288f0fdcc0ad"
+                },
+                {
+                  "id": "64d6071194550e52ca060b92",
+                  "tweet": "fata test tweet di twitter Edit coba lagi",
+                  "createdDate": "2023-08-11T10:01:53.378Z",
+                  "updatedDate": "2023-08-11T10:01:53.378Z",
+                  "userId": "64d4de34ea48288f0fdcc0ad"
+                }
+              ],
+              "_count": {
+                "tweets": 2
+              }
+    {
 ```
 ### POST /login
 
