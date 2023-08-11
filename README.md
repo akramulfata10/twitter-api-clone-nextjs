@@ -8,7 +8,7 @@ membuat API-twitter sederhana dengan menggunakan teknologi nextjs, mongodb, pris
 - [POST /signub](#post-signub)
 - [POST /tweets](#post-tweets)
 - [GET /tweet/[id]](#get-tweetid)
-- [POST /tweet/[id]](#post-tweetid)
+- [PUT /tweet/[id]](#put-tweetid)
 
 ### GET /users
 
@@ -112,15 +112,94 @@ Response Body :
 
 Example: http://localhost:3000/api/tweets.json
 
+```javascript
+    POST /api/tweets HTTP/1.1
+    User-Agent: Thunder Client (https://www.thunderclient.com)
+    Accept: application/json
+    Content-Type: application/json
+    Host: localhost:3000
+    Content-Length: 78
+    
+    {
+      "tweet": "mantapp banget fata1",
+      "userId" : "64d4e0fdea48288f0fdcc0bc"
+    }
+```
+
+Response Body:
+
+```javascript
+    {
+      "createTweet": {
+        "id": "64d689c4a94fbd7bfcc8fe7b",
+        "tweet": "mantapp banget fata1",
+        "createdDate": "2023-08-11T19:19:32.869Z",
+        "updatedDate": "2023-08-11T19:19:32.869Z",
+        "userId": "64d4e0fdea48288f0fdcc0bc"
+      }
+    }
+
+```
+
 
 ### GET /tweet/[id]
 
 Example: http://localhost:3000/api/tweet.json
 
+```javascript
 
-### POST /tweet/[id]
+    GET /api/tweet/64d689c4a94fbd7bfcc8fe7b HTTP/1.1
+    User-Agent: Thunder Client (https://www.thunderclient.com)
+    Accept: application/json
+    Host: localhost:3000
+
+```
+
+Response Body: 
+
+```javascript
+    {
+      "tweet": {
+        "id": "64d689c4a94fbd7bfcc8fe7b",
+        "tweet": "mantapp banget fata1",
+        "createdDate": "2023-08-11T19:19:32.869Z",
+        "updatedDate": "2023-08-11T19:19:32.869Z",
+        "userId": "64d4e0fdea48288f0fdcc0bc"
+      }
+    }
+```
+
+
+### PUT /tweet/[id]
 
 Example: http://localhost:3000/api/tweet.json
+
+```javascript
+    PUT /api/tweet/64d6118894550e52ca060ba5 HTTP/1.1
+    User-Agent: Thunder Client (https://www.thunderclient.com)
+    Accept: application/json
+    Content-Type: application/json
+    Host: localhost:3000
+    Content-Length: 28
+    
+    {
+      "tweet": "aku ganteng"
+    }
+```
+
+Response Body:
+
+```javascript
+    {
+      "tweet": {
+        "id": "64d6118894550e52ca060ba5",
+        "tweet": "aku ganteng",
+        "createdDate": "2023-08-11T10:46:32.716Z",
+        "updatedDate": "2023-08-11T10:46:32.716Z",
+        "userId": "64d4e0fdea48288f0fdcc0bc"
+      }
+    }
+```
 
 
 
