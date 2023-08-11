@@ -78,6 +78,28 @@ Example: http://localhost:3000/api/users.json
 
 Example: http://localhost:3000/api/login.json
 
+```javascript
+   POST /api/login HTTP/1.1
+   User-Agent: Thunder Client (https://www.thunderclient.com)
+   Accept: application/json
+   Content-Type: application/json
+   Host: localhost:3000
+   Content-Length: 69
+   
+   {
+     "email": "akramulfata10@gmail.com",
+     "password" : "1234567890"
+   }
+```javascript
+
+Response Body:
+
+```javascript
+   {
+     "message": "login succes"
+   }
+```javascript
+
 
 ### POST /signub
 
