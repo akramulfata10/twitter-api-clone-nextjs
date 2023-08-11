@@ -13,7 +13,7 @@ membuat API-twitter sederhana dengan menggunakan teknologi nextjs, mongodb, pris
 ### GET /users
 
 Example: http://localhost:3000/api/users.json
-1- GET - Get single item - HTTP Response Code: **200**
+
 ```javascript
     "users": [
     {
@@ -39,14 +39,17 @@ Example: http://localhost:3000/api/login.json
      "email": "akramulfata10@gmail.com",
      "password" : "1234567890"
    }
+
 ```javascript
 
 Response Body:
 
 ```javascript
+
    {
      "message": "login succes"
    }
+
 ```javascript
 
 
