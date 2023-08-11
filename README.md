@@ -31,7 +31,6 @@ Example: http://localhost:3000/api/signub.json
 Example: http://localhost:3000/api/tweets.json
 
 
-
 ### get /tweet/[id]
 
 Example: http://localhost:3000/api/tweet.json
