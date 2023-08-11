@@ -43,14 +43,16 @@ Example: http://localhost:3000/api/signub.json
 ```
 Response Body :
 
-{
-  "userCreate": {
-    "id": "64d68259a94fbd7bfcc8fe74",
-    "name": "aidil",
-    "email": "aidil@gmail.com",
-    "password": "$2b$10$yxETAvMa50c1xgeSaY2Zke.0Wm2SZ.v6RAZBcrth.WtIddtf//MQ2"
-  }
-}
+```javascript
+   {
+     "userCreate": {
+       "id": "64d68259a94fbd7bfcc8fe74",
+       "name": "aidil",
+       "email": "aidil@gmail.com",
+       "password": "$2b$10$yxETAvMa50c1xgeSaY2Zke.0Wm2SZ.v6RAZBcrth.WtIddtf//MQ2"
+     }
+   }
+```
 
 ### POST /tweets
 
