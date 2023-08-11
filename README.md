@@ -24,6 +24,20 @@ Example: http://localhost:3000/api/login.json
 
 Example: http://localhost:3000/api/signub.json
 
+Reques body : 
+POST /api/signup HTTP/1.1
+User-Agent: Thunder Client (https://www.thunderclient.com)
+Accept: application/json
+Content-Type: application/json
+Host: localhost:3000
+Content-Length: 74
+
+{
+  "name": "aidil",
+  "email": "aidil@gmail.com",
+  "password": "aidil"
+}
+
 
 ### POST /tweets
 
